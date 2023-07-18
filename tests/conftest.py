@@ -5,7 +5,7 @@ from typing import Any, Callable, List
 
 import boa
 import pytest
-from boa.environment import AddressT
+from boa.environment import AddressType
 from hypothesis import settings
 
 boa.interpret.set_cache_dir()
@@ -35,12 +35,12 @@ def approx(x1: int, x2: int, precision: int, abs_precision=None):
 
 
 @pytest.fixture(scope="session")
-def accounts() -> List[AddressT]:
+def accounts() -> List[AddressType]:
     return [boa.env.generate_address() for _ in range(10)]
 
 
 @pytest.fixture(scope="session")
-def admin() -> AddressT:
+def admin() -> AddressType:
     return boa.env.generate_address()
 
 

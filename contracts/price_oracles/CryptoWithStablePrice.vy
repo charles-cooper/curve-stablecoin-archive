@@ -1,4 +1,4 @@
-# @version 0.3.7
+# @version ^0.3.7
 """
 @title CryptoWithStablePrice - price oracle for tricrypto for crvUSD
 @author Curve.Fi
