@@ -7,6 +7,8 @@ import boa
 import pytest
 from hypothesis import settings
 
+boa.env.enable_fast_mode()
+
 
 PRICE = 3000
 

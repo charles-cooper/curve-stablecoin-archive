@@ -1,4 +1,4 @@
-# @version 0.3.9
+# @version ^0.3.9
 """
 @title CryptoWithStablePriceSfrxeth
 @notice Price oracle for tricrypto+sfrxeth for crvUSD
